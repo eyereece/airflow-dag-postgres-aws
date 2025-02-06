@@ -1,7 +1,8 @@
 # airflow-dag-postgres-aws
 Create an Airflow DAG to fetch article metadata from Medium, transform, and load into postgresql and deploy on AWS EC2 and RDS. Scripts for RabbitMQ available to fetch data as message queues and retrieve data with db worker/subscriber.
 
-Tutorial Companion: <a href="https://www.joankusuma.com/post/build-an-airflow-dag-on-aws-ec2">Build an Airflow DAG on AWS EC2</a>
+Tutorial Companion: <a href="https://www.joankusuma.com/post/build-an-airflow-dag-on-aws-ec2">Build an Airflow DAG on AWS EC2</a><br>
+<i>Tutorial companion for message queue will be coming soon</i>
 
 # Architecture
 <img src="./images/airflow2.png" width="900"/>
